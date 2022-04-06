@@ -1,0 +1,6 @@
+framework module Pods_RegistryPOD_RegistryPODTests {
+  umbrella header "Pods-RegistryPOD-RegistryPODTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
