@@ -14,6 +14,7 @@
 		2094FCC427FD68B400765A7F /* RegistryLaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2094FCC327FD68B400765A7F /* RegistryLaunchViewController.swift */; };
 		4CFBE89ED238F51F023635B2 /* Pods_RegistryPOD_RegistryPODTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38559416425EFC6F4CB54EE0 /* Pods_RegistryPOD_RegistryPODTests.framework */; };
 		5262088127FEB5C700D4995B /* RegistryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5262088027FEB5C700D4995B /* RegistryVC.swift */; };
+		5262088527FEEC6800D4995B /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5262088427FEEC6800D4995B /* FirstViewController.swift */; };
 		E3A951F74D922632763B1FAF /* Pods_RegistryPOD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A37FCBC6FAB2DEF45D677F4 /* Pods_RegistryPOD.framework */; };
 /* End PBXBuildFile section */
 
@@ -38,6 +39,7 @@
 		38559416425EFC6F4CB54EE0 /* Pods_RegistryPOD_RegistryPODTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RegistryPOD_RegistryPODTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4906A91BC76EAAD490327216 /* Pods-RegistryPOD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RegistryPOD.debug.xcconfig"; path = "Target Support Files/Pods-RegistryPOD/Pods-RegistryPOD.debug.xcconfig"; sourceTree = "<group>"; };
 		5262088027FEB5C700D4995B /* RegistryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistryVC.swift; sourceTree = "<group>"; };
+		5262088427FEEC6800D4995B /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		9990332C240FAFC91C3E4229 /* Pods-RegistryPOD-RegistryPODTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RegistryPOD-RegistryPODTests.debug.xcconfig"; path = "Target Support Files/Pods-RegistryPOD-RegistryPODTests/Pods-RegistryPOD-RegistryPODTests.debug.xcconfig"; sourceTree = "<group>"; };
 		9A37FCBC6FAB2DEF45D677F4 /* Pods_RegistryPOD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RegistryPOD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD568F1F7F30B9AFA7E5C575 /* Pods-RegistryPOD-RegistryPODTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RegistryPOD-RegistryPODTests.release.xcconfig"; path = "Target Support Files/Pods-RegistryPOD-RegistryPODTests/Pods-RegistryPOD-RegistryPODTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -107,6 +109,7 @@
 			children = (
 				2094FCC327FD68B400765A7F /* RegistryLaunchViewController.swift */,
 				5262088027FEB5C700D4995B /* RegistryVC.swift */,
+				5262088427FEEC6800D4995B /* FirstViewController.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -310,6 +313,7 @@
 				2094FCC427FD68B400765A7F /* RegistryLaunchViewController.swift in Sources */,
 				5262088127FEB5C700D4995B /* RegistryVC.swift in Sources */,
 				2094FCAD27FD682100765A7F /* RegistryPOD.docc in Sources */,
+				5262088527FEEC6800D4995B /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
