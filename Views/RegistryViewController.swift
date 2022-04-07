@@ -17,7 +17,7 @@ final class RegistryViewController:UIViewController{
             label.center = CGPoint(x: 160, y: 285)
             label.textAlignment = .center
             label.text = "I'm a test label"
-            label.backgroundColor = UIColor.gray
+            label.backgroundColor = UIColor.brown
             self.view.addSubview(label)
     }
     
