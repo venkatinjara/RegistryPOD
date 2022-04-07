@@ -7,7 +7,7 @@ target 'RegistryPOD' do
 
   # Pods for RegistryPOD
 
-	pod 'MBProgressHUD', '~> 1.1.0', :modular_headers => true
+   pod 'MBProgressHUD', '~> 1.1.0', :modular_headers => true
 
   target 'RegistryPODTests' do
     # Pods for testing

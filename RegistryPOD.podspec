@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "RegistryPOD"
-  spec.version      = "1.0.0"
+  spec.version      = "1.0.1"
   spec.summary      = "RegistryPOD lets a user launch Registry App."
   spec.description  = "This CocoaPods library helps you perform calculation."
   spec.homepage     = "https://github.com/venkatinjara/RegistryPOD"
