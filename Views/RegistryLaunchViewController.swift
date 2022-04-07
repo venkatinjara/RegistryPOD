@@ -9,8 +9,7 @@ import SwiftUI
 
 struct RegistryLaunchViewController: View {
     var body: some View {
-        ZStack
-        {
+        ZStack {
             Color(red: 0.09, green: 0.63, blue: 0.52)
                 .edgesIgnoringSafeArea(.all)
             Text("Registry Comming Soon!!!!!")

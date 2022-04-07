@@ -1,39 +1,21 @@
-Pod::Spec.new do |s|
+Pod::Spec.new do |spec|
 
-# 1
-s.platform = :ios
-s.ios.deployment_target = '12.0'
-s.name = "RegistryPOD"
-s.summary = "RegistryPOD lets a user launch Registry App."
-s.requires_arc = true
+  spec.name         = "RegistryPOD"
+  spec.version      = "0.1.0"
+  spec.summary      = "RegistryPOD lets a user launch Registry App."
 
-# 2
-s.version = "0.1.0"
+  spec.description  = <<-DESC
+This CocoaPods library helps you perform calculation.
+                   DESC
 
-# 3
-s.license = { :type => "MIT", :file => "LICENSE" }
+  spec.homepage     = "https://github.com/venkatinjara/RegistryPOD"
+  spec.license      = { :type => "MIT", :file => "LICENSE" }
+  spec.author       = { "venkatinjara" => "venkat.injarapu.ios@gmail.com" }
 
-# 4 - Replace with your name and e-mail address
-s.author = { "VenkatInjara" => "venkat.injarapu.ios@gmail.com" }
+  spec.ios.deployment_target = "12.0"
+  spec.swift_version = "4.2"
 
-# 5 - Replace this URL with your own GitHub page's URL (from the address bar)
-s.homepage = "https://github.com/venkatinjara/RegistryPOD"
-
-# 6 - Replace this URL with your own Git URL from "Quick Setup"
-s.source = { :git => "https://github.com/venkatinjara/RegistryPOD.git", 
-             :tag => "#{s.version}" }
-
-# 7
-s.framework = "UIKit"
-s.dependency 'MBProgressHUD', '~> 1.1.0'
-
-# 8
-s.source_files = "RegistryPOD/**/*.{swift}"
-
-# 9
-s.resources = "RegistryPOD/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
-
-# 10
-s.swift_version = "4.2"
+  spec.source        = { :git => "https://github.com/venkatinjara/RegistryPOD.git", :tag => "#{spec.version}" }
+  spec.source_files  = "RegistryPOD/**/*.{h,m,swift}"
 
 end
