@@ -11,6 +11,5 @@ Pod::Spec.new do |spec|
   spec.swift_version = "4.2"
  spec.source        = { :git => "https://github.com/venkatinjara/RegistryPOD.git", :tag => "#{spec.version}" }
   spec.source_files  = "RegistryPOD/**/*"
-  spec.dependency 'MBProgressHUD', '~> 1.1.0'
 
 end
