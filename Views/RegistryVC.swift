@@ -1,17 +1,17 @@
 //
-//  RegistryViewController.swift
+//  RegistryVC.swift
 //  RegistryPOD
 //
 //  Created by Venkateswar Rao I on 07/04/22.
 //
 
-import Foundation
 import UIKit
-import SwiftUI
-final class RegistryViewController:UIViewController{
-    
-    override func viewDidLoad() {
+
+public class RegistryVC: UIViewController {
+
+    public override func viewDidLoad() {
         super.viewDidLoad()
+
         self.view.backgroundColor = UIColor.green
         let label = UILabel(frame: CGRect(x: 0, y: 0, width: 200, height: 21))
             label.center = CGPoint(x: 160, y: 285)
@@ -20,5 +20,4 @@ final class RegistryViewController:UIViewController{
             label.backgroundColor = UIColor.brown
             self.view.addSubview(label)
     }
-    
 }

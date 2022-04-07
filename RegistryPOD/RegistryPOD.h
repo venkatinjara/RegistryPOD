@@ -6,7 +6,6 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "RegistryViewController"
 
 //! Project version number for RegistryPOD.
 FOUNDATION_EXPORT double RegistryPODVersionNumber;
